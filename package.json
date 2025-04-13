@@ -1,0 +1,26 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "Как вы уже видели, некоторые проекты требуют для своей работы совместимости с текущей поддерживаемой версией языка. Но при этом есть большое желание использовать новейшие возможности ES. И для этого есть специальный инструмент, который позволяет осуществлять компиляцию кода на ES6+ в поддерживаемые на данный момент возможности - Babel. Поэтому вы приняли следующее решение: писать всё на новейшей версии языка и с помощью Babel обеспечить себе наибольшее количество пользователей.",
+  "homepage": "https://github.com/TanyaBazuto/babel#readme",
+  "bugs": {
+    "url": "https://github.com/TanyaBazuto/babel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaBazuto/babel.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9"
+  }
+}
